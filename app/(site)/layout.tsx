@@ -1,6 +1,6 @@
-import "../../globals.css";
+import "../globals.css";
 import Link from "next/link";
-import { getPages } from "../../../../sanity/sanity-utils";
+import { getPages } from "../../sanity/sanity-utils";
 
 export const metadata = {
   title: "My Awesome Site",
