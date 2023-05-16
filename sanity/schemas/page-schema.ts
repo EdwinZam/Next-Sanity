@@ -12,10 +12,7 @@ const page = {
       name: "slug",
       title: "Slug",
       type: "slug",
-      option: {
-        source: "title",
-        maxLength: 96,
-      },
+      options: { source: "title", maxLength: 96 },
     },
     {
       name: "content",
