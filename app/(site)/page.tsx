@@ -8,15 +8,25 @@ export default async function Home() {
   return (
     <div>
       <h1 className="text-5xl font-extrabold mb-3">
-        Hello Im{" "}
+        Hola Soy{" "}
         <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
           Edwin
         </span>
       </h1>
-      <p className="mt-3 text-xl text-gray-600">
-        Aloha everyone! Check out my projects!
-      </p>
-      <h2 className="mt-24 font-bold text-gray-600 text-3xl">My Projects</h2>
+      <div className="mt-3 text-xl text-gray-700">
+        <p>
+          Soy un apasionado desarrollador de aplicaciones web. Diseño interfaces
+          atractivas y funcionales para brindar experiencias cautivadoras a los
+          usuarios.
+        </p>
+        <br />
+        <p>
+          En mi portafolio, encontrarás proyectos destacados donde aplico mi
+          experiencia en HTML, CSS y JavaScript junto con React. Mi enfoque se
+          centra en la excelencia y la calidad.
+        </p>
+      </div>
+      <h2 className="mt-10 font-bold text-gray-600 text-3xl">My Projects</h2>
       <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link
